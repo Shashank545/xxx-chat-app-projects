@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://spo-global.kpmg.com/_layouts/15/IdleWarning.aspx -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>
+	  You're about to be signed out of Office 365
+	</title>
+	<style type="text/css" media="screen, print, projection">
+		body {
+			width: auto;
+			min-width: 288px;
+			max-width: 340px;
+		}
+		div {
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+			font-size: 100%;
+			-webkit-font-smoothing: antialiased;
+			vertical-align: baseline;
+			text-decoration: none;
+			text-align: left;
+			color: #333333;
+			display: block;
+		}
+		p {
+			display: block;
+			-webkit-margin-before: 1em;
+			-webkit-margin-after: 1em;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			text-align: left;
+		}
+		button {
+			line-height: normal;
+			outline: transparent;
+			position: relative;
+			font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+			-webkit-font-smoothing: antialiased;
+			user-select: none;
+			border-width: 0;
+			text-decoration: none;
+			text-align: center;
+			cursor: pointer;
+			display: inline-block;
+			padding: 0 16px;
+			background-color: #0078d7;
+			color: #ffffff;
+			min-width: 80px;
+			height: 32px;
+			font-weight: 600;
+			font-size: 14px;
+			background: 0 0;
+			border: none;
+			box-sizing: inherit;
+		}
+		.Dialog-header {
+			position: relative;
+			width: 100%;
+			box-sizing: border-box;
+			font-size: 21px;
+			font-weight: 100;
+			padding: 20px 36px 20px 28px;
+		}
+		.Dialog-inner {
+			padding: 0 28px 20px;
+		}
+		.Dialog-content {
+			position: relative;
+			width: 100%;
+		}
+		.Dialog-subtext {
+			margin: 0 0 20px 0;
+			padding-top: 8px;
+			font-size: 12px;
+			font-weight: 300;
+			line-height: 1.5;
+		}
+		.Dialog-actions {
+			position: relative;
+			width: 100%;
+			min-height: 24px;
+			margin: 20px 0 -4px 0;
+			font-size: 0;
+			text-align: right;
+		}
+		.dialog-Button-flex {
+			display: flex;
+			height: 100%;
+			flex-wrap: nowrap;
+			-webkit-box-pack: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			align-items: center;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			text-decoration: none;
+			box-sizing: inherit;
+			-webkit-font-smoothing: antialiased;
+			user-select: none;
+			text-align: center;
+			cursor: pointer;
+			color: #ffffff;
+			background-color: #0078d7;
+		}
+		.dialog-Button-label {
+			margin: 0 4px;
+			line-height: 100%;
+			padding: 0;
+			border: 0;
+			font-size: 100%;
+			font: inherit;
+			vertical-align: baseline;
+			text-decoration: none;
+			box-sizing: inherit;
+			-webkit-font-smoothing: antialiased;
+			user-select: none;
+			text-align: center;
+			cursor: pointer;
+			color: #ffffff;
+		}
+	</style>
+  </head>
+  <body scrolling="no">
+	<div class="Dialog-header">
+		You're about to be signed out of Office 365
+	</div>
+	<div class="Dialog-inner">
+		<div class="Dialog-content">
+			<div class="Dialog-subtext">
+				For security reasons, your connection times out after you've been inactive for a while. Click Continue to stay signed in.
+			</div>
+		</div>
+		<div class="Dialog-actions">
+			<span class="Dialog-action">
+				<button type="button" onclick="DismissWarning(); return false;">
+					<span class="dialog-Button-flex">
+						<span class="dialog-Button-label">
+							Continue
+						</span>
+					</span>
+				</button>
+			</span>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function DismissWarning()
+		{
+			var top = window.top;
+			if (typeof(top.activityMonitorDefined) === 'boolean' && top.activityMonitorDefined == true)
+			{
+				top.ActivityMonitor_1.GetInstance().DismissWarning();
+			}
+			else
+			{
+				window.top.location.reload();
+			}
+		}
+	</script>
+  
+
+<script type="text/javascript" nonce="4985c0b8-0c4b-4f6f-be5c-d3ac7d6dd0e0">
+	var g_duration = 13;
+var g_iisLatency = 0;
+var g_cpuDuration = 9;
+var g_queryCount = 1;
+var g_queryDuration = 3;
+var g_requireJSDone = new Date().getTime();
+</script></body></html>

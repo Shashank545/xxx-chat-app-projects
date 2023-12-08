@@ -1,0 +1,28 @@
+define([], function () {
+  return {
+    PropertyPaneDescription: 'Description',
+    BasicGroupName: 'Group Name',
+    DescriptionFieldLabel: 'Webpart description',
+    DisplaysettingsGroupName: 'Display settings',
+    WebpartTitleFieldLabel: 'Webpart Title',
+    UseRoundCornersLabel: 'Use round corners',
+    UseWebPartContainerLabel: 'Use web part container',
+    DisplaySearchBarLabel: 'Display search bar',
+    PreferredDisplayModeLabel: 'Preferred display mode',
+    AccordionTabSectionsLabel: 'Accordion/Tab sections',
+    SelectedSectionBackgroundLabel: 'Selected header background color',
+    AddANewSectionLabel: 'Add a new section',
+    AddSectionText: 'Add section',
+    RemoveSectionText: 'Remove a section',
+    SelectedSectionText: 'Selected section',
+    NewSectionPlaceHolderText: 'Enter the new section title',
+    ContentDisplayModeNote: "Please note: If the web part is used in a narrow page column, or rendered on a small device screen / narrow browser window, the 'Accordion' display mode will be used, regardless of the selected 'Preferred display mode'.",
+    SearchSettingsGroupName: 'Search settings',
+    ConfigurationOptionsGroupName: 'Configuration options',
+    SelectSectionToRemoveText: 'Select a section to remove',
+    SelectedSectionNoneText: 'None',
+    ToggleOptionOnText: 'On',
+    ToggleOptionOffText: 'Off',
+    SearchHighlightsLabel: 'Highlight search',
+  };
+});

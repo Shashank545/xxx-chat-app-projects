@@ -1,0 +1,65 @@
+define([], function () {
+  return {
+    DisplayModeFieldLabel: "Default view",
+    DisplayModePictureOption: "Picture view",
+    DisplayModeCardOption: "Card view",
+
+    PersonCardInteractionFieldLabel: "Show person card",
+    InteractionHoverOption: "On hover",
+    InteractionClickOption: "On click",
+    InteractionNoneOption: "Never",
+
+    RefinerFieldsFieldLabel: "Refiner fields",
+    DepartmentOption: "Department",
+    CityOption: "City",
+    OfficeCityOption: "Office City",
+    JobOption: "Job title",
+    SkillsOption: "Skills and interests",
+
+    QueryGroupName: "Query settings",
+
+    AdvancedSettingsGroupName: "Advanced settings",
+    NumberOfLinesFieldLabel: "Number of lines",
+    Line1FieldLabel: "Line 1",
+    Line1FieldDescription: "Override the field in line 1 - default is the user's name",
+    Line2FieldLabel: "Line 2",
+    Line2FieldDescription: "Override the field in line 2 - default is the user's job title",
+    Line3FieldLabel: "Line 3",
+    Line3FieldDescription: "Override the field in line 3 - default is the user's department",
+    CustomProperty1IconFieldLabel: "Custom field 1 icon",
+    CustomProperty1FieldLabel: "Custom field 1",
+    CustomProperty2IconFieldLabel: "Custom field 2 icon",
+    CustomProperty2FieldLabel: "Custom field 2",
+    CustomProperty3IconFieldLabel: "Custom field 3 icon",
+    CustomProperty3FieldLabel: "Custom field 3",
+    CustomProperty4IconFieldLabel: "Custom field 4 icon",
+    CustomProperty4FieldLabel: "Custom field 4",
+    CustomProperty5IconFieldLabel: "Custom field 5 icon",
+    CustomProperty5FieldLabel: "Custom field 5",
+
+    LoadingMessage: "Loading people...",
+    ErrorMessage: "Error loading people",
+    NoDataMessage: "No people found",
+    ExternalUserMessage: "External users are not able to search or browse people results",
+
+    ViewPicturesLabel: "Pictures",
+    ViewDetailsLabel: "Details",
+
+    DepartmentLabel: "Department",
+    BaseOfficeLocationLabel: "Location",
+    InterestsLabel: "Interests",
+    JobTitleLabel: "Job title",
+    MobilePhoneLabel: "Mobile phone",
+    OfficeNumberLabel: "Office",
+    PastProjectsLabel: "Past projects",
+    PeopleKeywordsLabel: "Skills & Interests",
+    PreferredNameLabel: "Preferred name",
+    ResponsibilitiesLabel: "Responsibilities",
+    SkillsLabel: "Skills",
+    WorkEmailLabel: "Email",
+    WorkPhoneLabel: "Work phone",
+    //KPMG Specifics
+    IsMultiGeoSearchEnabledLabel: "Enable Multi GEO search",
+    InitialSearchResultsHiddenPlaceholder: "Please use the search controls above to see the relevant information",
+  }
+});

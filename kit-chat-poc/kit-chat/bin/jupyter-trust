@@ -1,0 +1,8 @@
+#!/Users/shashanksahoo/Documents/KIT_Projects_2022/KOMEI_projects_2023/kit-chat-poc/kit-chat/bin/python3.11
+# -*- coding: utf-8 -*-
+import re
+import sys
+from nbformat.sign import TrustNotebookApp
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(TrustNotebookApp.launch_instance())
